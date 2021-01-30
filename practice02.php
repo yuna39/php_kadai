@@ -1,6 +1,7 @@
 <?php
 echo 'hello php';
 
+
 // 課題１
 $a =3;
 $b =7;
@@ -42,4 +43,3 @@ $calendar = [
     ];
     
     echo $calendar["December"];
-
