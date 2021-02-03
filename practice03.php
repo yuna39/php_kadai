@@ -19,15 +19,15 @@ echo $total;
 
 // 課題３
 $fruits = array("banana","peach","apple","orange","cherry");
-foreach($fruits as $fruits) {
-    echo "要素は" . $fruits;
+foreach($fruits as $fruit) {
+    echo "要素は" . $fruit;
     echo "\n";
 }
 
 // 課題４
 $start = 1;
 $end = 100;
-for ($i = $start; $i < $end; $i++) {
+for ($i = $start; $i <= $end; $i++) {
     if($i % 5 ==0) {
         echo $i;
     }
