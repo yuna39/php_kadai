@@ -16,9 +16,7 @@ $hello ="Hello,";
 $name ="yuna";
 $world = "' World!";
 
-echo $hello;
-echo $name;
-echo $world;
+echo $hello . $name . $world;
 
 // 課題４
 $tech_boost = 'tech';
