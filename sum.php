@@ -6,7 +6,8 @@ function sum($i){
       return $result;
 }
 
-    echo sum(4);
+    echo sum(8);
+    echo "\n";
 
     
 
@@ -16,7 +17,8 @@ function f($a,$b){
      return $result;
 }
 
-    echo f(4,2);
+    echo f(3,7);
+    echo "\n";
 
 
 
@@ -28,10 +30,10 @@ function total($arr){
     
     $result *= $ar;
     }
-    echo $result;
+    return $result;
 }
     
-    total(array(1,3,5,7,9));
+    echo total(array(1,2,5));
     echo "\n";
     
     
@@ -44,9 +46,9 @@ function max_array($arr){
             $max_number = $a;
         }
     }
-    echo $max_number;
+    return $max_number;
 }
-    max_array(array(3,6,4,7));
+    echo max_array(array(9,3,6,5,7));
     echo "\n";
     
     
